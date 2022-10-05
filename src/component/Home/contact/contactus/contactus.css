@@ -1,0 +1,9 @@
+.contact{
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 5px 5px 5px 2px lightgrey;
+    padding: 2%;
+    border-radius: 5px;
+}

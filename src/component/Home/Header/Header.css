@@ -1,0 +1,16 @@
+.header-container {
+        width:100%;
+        background-image: url(../../../image//home-yoga-hero-bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-height:fit-content;
+        height: 60%;
+        
+}
+.header-container h1{
+    color: #FFF;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 600;
+    font-size:60px;
+}

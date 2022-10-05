@@ -1,0 +1,7 @@
+.card-img{
+    position:relative;
+    z-index: -5;
+  }
+  .course-card{
+    cursor: pointer;
+  }

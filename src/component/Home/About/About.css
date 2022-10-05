@@ -1,0 +1,31 @@
+.about-text p{
+    line-height:50px;
+    color: darkcyan;
+     padding: 0px 40px;
+}
+
+.btn-pasn{
+    background-color: #ff544a;
+    border: 0px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-text p{
+        line-height:25px;
+         padding: 10px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .abt-txt{
+        z-index: -1;
+        position:relative;
+    }
+
+    .abt-img{
+        z-index: -100;
+    }
+}

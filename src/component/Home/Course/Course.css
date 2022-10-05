@@ -1,0 +1,60 @@
+.card-img{
+  position:relative;
+  z-index: -5;
+}
+.course-card{
+  cursor: pointer;
+}
+
+.price-card{
+  position: absolute; 
+  height: 70px;
+  width: 70px; 
+  border-Radius: 50%;
+  margin-left: 60%; 
+  margin-top: 2%;
+  background-color: #CF6E52;
+}
+
+.price{
+  padding: 10px; 
+  font-size: 20px; 
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 580px){
+  .price-card{
+    position: absolute; 
+    height: 55px;
+    width: 55px; 
+    border-Radius: 50%;
+    margin-left: 70%; 
+    margin-top: 2%;
+    background-color: #CF6E52;
+  }
+  
+  .price{
+    padding: 10px; 
+    font-size: 15px; 
+    color: white;
+  }
+}
+
+@media screen and (max-width:950px) and (min-width: 510px){
+  .price-card{
+    position: absolute; 
+    height: 70px;
+    width: 70px; 
+    border-Radius: 50%;
+    margin-left: 60%; 
+    margin-top: 2%;
+    background-color: #CF6E52;
+  }
+  
+  .price{
+    padding: 10px; 
+    font-size: 20px; 
+    color: white;
+  }
+}
